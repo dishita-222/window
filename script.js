@@ -3,7 +3,7 @@ let startmenu = document.getElementsByClassName("startmenu")[0]
 
 taskbar.addEventListener("click", ()=>{
     console.log("clicked");
-    if(startmenu.style.bottom == "50px"){
+    if(startmenu.style.bottom == "55px"){
         startmenu.style.bottom = "-655px"
     }
     else{
